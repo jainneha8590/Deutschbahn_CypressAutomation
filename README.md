@@ -47,13 +47,14 @@ This project is created for learning, demonstration, and portfolio purposes.
 It is intended to reflect real-world QA automation practices used in agile software development teams.
 
 ## ▶️ How to Run Tests
-```bash
-npm install
-npx cypress open
-or headless:
 
-bash
-Copy code
+1️⃣ Install dependencies :
+npm install
+
+2️⃣ Open Cypress Test Runner:
+npx cypress open
+
+3️⃣ Run tests in headless mode:
 npx cypress run
 
 
