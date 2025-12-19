@@ -1,0 +1,62 @@
+# Deutsche Bahn Cypress Automation Project 🚆
+
+This project demonstrates end-to-end test automation using **Cypress** for a real-world German web application (Deutsche Bahn).  
+It is designed to showcase best practices in UI automation, API testing, and test structure.
+
+## 🔧 Tech Stack
+- Cypress
+- JavaScript
+- Node.js
+- GitHub
+- REST API testing (Postman concepts)
+
+## 📂 Project Structure
+cypress/
+├── e2e/
+│ ├── bahn.cy.js
+│ ├── search.cy.js
+│ ├── searchresult.cy.js
+│ └── cookie.cy.js
+├── fixtures/
+│ └── route.json
+└── support/
+├── commands.js
+└── e2e.js
+
+
+
+## ✅ Test Coverage
+- Cookie consent handling (conditional execution)
+- Train search flow
+- Search result validation
+- Reusable test commands
+- Clean test separation
+
+👩‍💻 Author
+
+Neha Jain
+Test Automation Engineer
+
+📍 Viernheim, Germany
+
+🔗 LinkedIn: https://www.linkedin.com/in/nehajain859
+
+📌 Note
+
+This project is created for learning, demonstration, and portfolio purposes.
+It is intended to reflect real-world QA automation practices used in agile software development teams.
+
+## ▶️ How to Run Tests
+```bash
+npm install
+npx cypress open
+or headless:
+
+bash
+Copy code
+npx cypress run
+
+
+
+
+
