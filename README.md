@@ -46,6 +46,20 @@ Test Automation Engineer
 This project is created for learning, demonstration, and portfolio purposes.
 It is intended to reflect real-world QA automation practices used in agile software development teams.
 
+🧠 Key Testing Concepts Applied
+
+1. End-to-End UI Testing
+
+2. Agile-friendly test design
+
+3. Stable selectors & reusable commands
+
+4. Defensive test logic (e.g., conditional cookie handling)
+
+5. Readable and maintainable test cases
+
+
+
 ## ▶️ How to Run Tests
 
 1️⃣ Install dependencies :
